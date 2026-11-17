@@ -1,0 +1,6 @@
+{
+  "name": "অফিসিয়াল কমিউনিটি — টেলিগ্রাম ল্যান্ডিং পেজ",
+  "description": "অফিসিয়াল প্রাইভেট টেলিগ্রাম কমিউনিটিতে যুক্ত হওয়ার জন্য ক্লিন ও মোবাইল-বান্ধব ল্যান্ডিং পেজ।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    font-family: "Hind Siliguri", "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    background-color: #040c12;
+    color: #f1f5f9;
+  }
+}
+
+.cyber-grid-bg {
+  background-color: #040c12;
+  background-image:
+    radial-gradient(circle at 50% 12%, rgba(34, 211, 238, 0.16) 0%, rgba(14, 116, 144, 0.08) 32%, transparent 62%),
+    radial-gradient(circle at 85% 30%, rgba(6, 182, 212, 0.1) 0%, transparent 45%),
+    radial-gradient(circle at 15% 75%, rgba(14, 116, 144, 0.1) 0%, transparent 45%),
+    linear-gradient(to right, rgba(56, 189, 248, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(56, 189, 248, 0.045) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 34px 34px, 34px 34px;
+}
+
+.cta-glow {
+  box-shadow:
+    0 0 0 1px rgba(103, 232, 249, 0.55),
+    0 0 28px rgba(34, 211, 238, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.65);
+}
+
+.cta-glow:hover {
+  box-shadow:
+    0 0 0 1px rgba(165, 243, 252, 0.8),
+    0 0 36px rgba(34, 211, 238, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+.emblem-glow {
+  box-shadow:
+    0 0 0 2px rgba(56, 189, 248, 0.65),
+    0 0 32px rgba(34, 211, 238, 0.32),
+    inset 0 0 20px rgba(34, 211, 238, 0.15);
+}
